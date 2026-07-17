@@ -3,52 +3,199 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>नई नाथ गो रक्षा दल</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
 body{
-    margin:0;
-    background:#0d0d0d;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
+background:#0b0b0b;
+color:#fff;
 }
+
 header{
-    background:linear-gradient(90deg,#000,#c89b3c);
-    padding:20px;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+z-index:1000;
+border-bottom:2px solid gold;
 }
-h1{
-    color:#FFD700;
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
 }
+
+.logo img{
+width:65px;
+height:65px;
+border-radius:50%;
+border:3px solid gold;
+}
+
+.logo h2{
+color:#FFD700;
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
 .hero{
-    padding:50px 20px;
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=1400&q=80");
+
+background-size:cover;
+background-position:center;
+
 }
+
+.hero h1{
+font-size:55px;
+color:gold;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
 .btn{
-    display:inline-block;
-    padding:12px 25px;
-    margin:10px;
-    background:#FFD700;
-    color:black;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
+
+display:inline-block;
+padding:15px 35px;
+background:gold;
+color:black;
+font-weight:bold;
+border-radius:40px;
+text-decoration:none;
+margin:10px;
+transition:.3s;
+
 }
+
+.btn:hover{
+
+background:white;
+transform:scale(1.05);
+
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+
 </style>
+
 </head>
+
 <body>
 
 <header>
-<h1>🐄 नई नाथ गो रक्षा दल</h1>
-<p>गो सेवा • राष्ट्र सेवा • मानव सेवा</p>
+
+<div class="logo">
+
+<img src="logo.jpg">
+
+<h2>नई नाथ गो रक्षा दल</h2>
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">About</a>
+
+<a href="#">Rescue</a>
+
+<a href="#">Gallery</a>
+
+<a href="#">Donate</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
 </header>
 
-<div class="hero">
-<h2>घायल एवं बेसहारा गोवंश की सेवा हमारा संकल्प</h2>
-<p>हम घायल, बीमार एवं बेसहारा गोवंश का रेस्क्यू, उपचार और पुनर्वास करते हैं।</p>
+<section class="hero">
+
+<div>
+
+<h1>गो सेवा • राष्ट्र सेवा • मानव सेवा</h1>
+
+<p>
+
+घायल, बीमार एवं बेसहारा गोवंश की सेवा हमारा संकल्प
+
+</p>
 
 <a class="btn" href="#">🚑 Rescue</a>
+
 <a class="btn" href="#">❤️ Donate</a>
 
 </div>
 
+</section>
+
 </body>
+
 </html>
