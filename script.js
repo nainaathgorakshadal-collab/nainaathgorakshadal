@@ -83,3 +83,35 @@ topBtn.onclick=()=>{
 
 // Console Message
 console.log("नई नाथ गौ रक्षा दल वेबसाइट सफलतापूर्वक लोड हो गई।");
+document.querySelectorAll(".gallery img").forEach(img => {
+  img.style.cursor = "pointer";
+
+  img.addEventListener("click", function () {
+    const overlay = document.createElement("div");
+    overlay.style.position = "fixed";
+    overlay.style.top = "0";
+    overlay.style.left = "0";
+    overlay.style.width = "100%";
+    overlay.style.height = "100%";
+    overlay.style.background = "rgba(0,0,0,0.95)";
+    overlay.style.display = "flex";
+    overlay.style.justifyContent = "center";
+    overlay.style.alignItems = "center";
+    overlay.style.zIndex = "99999";
+
+    const bigImg = document.createElement("img");
+    bigImg.src = this.src;
+    bigImg.style.maxWidth = "95%";
+    bigImg.style.maxHeight = "95%";
+    bigImg.style.border = "4px solid gold";
+    bigImg.style.borderRadius = "10px";
+
+    overlay.appendChild(bigImg);
+
+    overlay.onclick = function () {
+      overlay.remove();
+    };
+
+    document.body.appendChild(overlay);
+  });
+});
