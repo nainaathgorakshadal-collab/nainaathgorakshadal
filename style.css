@@ -379,33 +379,117 @@ transform:translateY(0);
 }
 }
 
-/* ===== Responsive ===== */
+/* ===== RESPONSIVE ===== */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
 header{
-padding:15px 20px;
-}
-
-nav ul{
+display:flex;
 flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:15px;
 gap:15px;
 }
 
+.logo{
+flex-direction:column;
+text-align:center;
+}
+
+.logo img{
+width:60px;
+height:60px;
+}
+
+.logo h2{
+font-size:20px;
+text-align:center;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+nav a{
+font-size:15px;
+padding:8px 12px;
+}
+
+.hero{
+padding-top:180px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.hero img{
+width:180px;
+}
+
 .hero h1{
-font-size:36px;
+font-size:34px;
+line-height:1.3;
 }
 
 .hero p{
 font-size:17px;
+line-height:1.8;
 }
 
-.logo h2{
-font-size:18px;
+.btn{
+display:block;
+width:100%;
+max-width:280px;
+margin:15px auto;
+text-align:center;
+}
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+.card-grid{
+grid-template-columns:1fr;
+}
+
+.team{
+grid-template-columns:1fr;
+}
+
+.contact{
+grid-template-columns:1fr;
+}
+
+.contact-box{
+grid-template-columns:1fr;
+}
+
+.member{
+width:100%;
+}
+
+.card img,
+.gallery img{
+height:220px;
+}
+
+.whatsapp-btn,
+.call-btn{
+width:55px;
+height:55px;
+font-size:26px;
+right:15px;
+}
+
+footer{
+padding:30px 15px;
 }
 
 section{
 padding:70px 20px;
 }
 
-  }
+}
