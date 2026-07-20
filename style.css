@@ -404,10 +404,19 @@ height:60px;
 }
 
 .logo h2{
-font-size:20px;
-text-align:center;
+    font-size:16px;
+    line-height:1.2;
+    text-align:left;
 }
 
+.logo img{
+    width:45px;
+    height:45px;
+}
+
+header{
+    padding:10px 15px;
+}
 nav{
 display:flex;
 flex-wrap:wrap;
