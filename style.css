@@ -68,14 +68,15 @@ nav ul{
     gap:25px;
 }
 
-nav ul li a{
-    text-decoration:none;
+nav a{
     color:#ffffff;
-font-weight:600;
+    text-decoration:none;
+    font-weight:600;
+    margin:0 10px;
     transition:.3s;
 }
 
-nav ul li a:hover{
+nav a:hover{
     color:#FFD700;
 }
 
