@@ -82,13 +82,13 @@ nav ul li a:hover{
 /* Hero */
 
 .hero{
-    min-height:100vh;
+    min-height:85vh;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     text-align:center;
-    padding:120px 20px 60px;
+    padding:80px 20px 30px;
 }
 
 .hero img{
