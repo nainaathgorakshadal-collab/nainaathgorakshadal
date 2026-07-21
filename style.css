@@ -459,14 +459,14 @@ padding:70px 20px;
         align-items:center;
         justify-content:space-between;
         padding:10px 12px;
-        gap:5px;
+        gap:12px;
     }
 
     /* Logo */
     .logo{
         display:flex;
         align-items:center;
-        gap:6px;
+        gap:8px;
         min-width:0;
         flex-shrink:1;
     }
@@ -488,7 +488,7 @@ padding:70px 20px;
     nav{
         display:flex;
         align-items:center;
-        gap:3px;
+        gap:7px;
         flex-wrap:wrap;
         justify-content:flex-end;
     }
