@@ -385,12 +385,12 @@ transform:translateY(0);
 @media (max-width:768px){
 
 header{
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-padding:15px;
-gap:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 15px;
+    gap:10px;
 }
 
 .logo{
