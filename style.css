@@ -470,8 +470,8 @@ padding:70px 20px;
         min-width:0;
         flex-shrink:1;
     }
-.logo{
-    margin-right:8px;
+     .logo{
+      margin-right:8px;
 }
     .logo img{
         width:45px;
