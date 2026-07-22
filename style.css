@@ -726,7 +726,7 @@ padding:70px 20px;
     .hero{
         min-height:auto !important;
 
-        padding:90px 15px 40px !important;
+        padding:80px 15px 40px !important;
 
         display:flex !important;
         flex-direction:column !important;
@@ -738,7 +738,7 @@ padding:70px 20px;
     }
 
     .hero img{
-        width:180px !important;
+        width:140px !important;
         max-width:80% !important;
 
         margin:0 auto !important;
@@ -955,10 +955,10 @@ padding:70px 20px;
 /*       SMALL MOBILE            */
 /* ============================= */
 
-@media (max-width: 400px){
+@media (max-width: 200px){
 
     .logo{
-        max-width:130px !important;
+        max-width:120px !important;
     }
 
     .logo img{
