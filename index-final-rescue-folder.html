@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>नई नाथ गो रक्षा दल</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.gallery-folder{max-width:520px;margin:0 auto;background:#111;border:2px solid gold;border-radius:20px;overflow:hidden;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.folder-cover{padding:35px 20px;text-align:center}
+.folder-icon{font-size:58px;margin-bottom:10px}
+.folder-cover h3{color:gold;font-size:24px;margin:8px 0}
+.folder-cover p{color:#ddd;margin:8px 0 18px}
+.folder-cover span{display:inline-block;padding:10px 20px;border-radius:25px;background:gold;color:#111;font-weight:700}
+.gallery-folder-content{display:none;padding:20px;border-top:1px solid rgba(255,215,0,.35)}
+.gallery-folder.open{max-width:1100px}
+.gallery-folder.open .gallery-folder-content{display:block}
+.gallery-folder.open .folder-cover{padding:20px}
+.gallery-folder.open .folder-icon{display:none}
+.gallery-folder.open .folder-cover p{display:none}
+.gallery-folder-content .gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.gallery-folder-content .gallery-grid img{width:100%;height:180px;object-fit:cover;border-radius:10px;display:block}
+.gallery-folder-content>p{color:#ddd;margin:18px 0 0}
+@media(max-width:600px){.gallery-folder-content .gallery-grid img{height:130px}.folder-cover h3{font-size:20px}}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#home"><img src="logo.png" alt="नई नाथ गो रक्षा दल"><span>नई नाथ गो रक्षा दल</span></a>
+    <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#gallery">Rescue</a><a href="#gallery">Gallery</a><a href="#donate">Donate</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-call" href="tel:7742569365">📞 Call Now</a>
+  </div>
+</header>
+<main>
+<section id="home" class="hero"><div class="hero-content"><img class="hero-logo" src="logo.png" alt="Logo"><h1>नई नाथ गौ रक्षा दल</h1><p>🐄 गौ सेवा • 🚑 पशु रेस्क्यू • ❤️ मानव सेवा</p><p class="hero-text">24×7 घायल एवं असहाय गौवंश तथा अन्य पशुओं की सेवा के लिए समर्पित।</p><div class="hero-actions"><a class="btn" href="tel:7742569365">📞 Call Now</a><a class="btn btn-outline" href="https://wa.me/917742569365" target="_blank">💬 WhatsApp</a></div></div></section>
+<section id="about" class="section"><div class="container"><h2 class="section-title">🐄 हमारे बारे में</h2><p class="lead"><strong>नई नाथ गो रक्षा दल</strong> बेसहारा, घायल एवं बीमार गोवंश की सेवा के लिए समर्पित संस्था है। हमारा उद्देश्य गो माता की रक्षा, उपचार, भोजन, आश्रय तथा समाज में गौ सेवा के प्रति जागरूकता फैलाना है।</p><div class="cards three"><article class="card"><div class="icon">❤️</div><h3>हमारा मिशन</h3><p>हर घायल और बेसहारा गोवंश तक समय पर सहायता पहुँचाना तथा उनकी सुरक्षा सुनिश्चित करना।</p></article><article class="card"><div class="icon">🚑</div><h3>हमारी सेवाएँ</h3><p>24×7 गौ रेस्क्यू, उपचार, भोजन व्यवस्था, गौशाला सहयोग और जन-जागरूकता अभियान।</p></article><article class="card"><div class="icon">🌍</div><h3>हमारा उद्देश्य</h3><p>गो माता की सेवा को जन-जन तक पहुँचाना और अधिक से अधिक लोगों को इस पुण्य कार्य से जोड़ना।</p></article></div></div></section>
+<section id="donate" class="section dark"><div class="container"><h2 class="section-title">❤️ सहयोग करें</h2><div class="cards three"><article class="card"><h3>🙏 आर्थिक सहयोग</h3><p>आपका छोटा सा सहयोग घायल एवं बेसहारा गोवंश के इलाज, भोजन और देखभाल में बहुत बड़ी सहायता बन सकता है।</p><a class="btn" href="tel:7742569365">Donate Now</a></article><article class="card"><h3>🤝 स्वयंसेवक बनें</h3><p>यदि आप गौ सेवा से जुड़ना चाहते हैं तो हमारी टीम का हिस्सा बनें और सेवा कार्य में सहयोग दें।</p><a class="btn" href="https://wa.me/917742569365" target="_blank">Join WhatsApp</a></article><article class="card"><h3>🚑 Emergency Rescue</h3><p>यदि कहीं घायल या बेसहारा पशु दिखाई दे तो तुरंत हमें कॉल या WhatsApp करें।</p><a class="btn" href="tel:7742569365">Call Rescue</a></article></div></div></section>
+<section class="stats"><div class="container stats-grid"><div><strong>1500+</strong><span>गौ रेस्क्यू</span></div><div><strong>500+</strong><span>सक्रिय सदस्य</span></div><div><strong>24×7</strong><span>आपातकालीन सेवा</span></div><div><strong>100%</strong><span>सेवा समर्पण</span></div></div></section>
+<section id="gallery" class="section">
+  <div class="container">
+    <h2 class="section-title">📸 Rescue Gallery</h2>
+
+    <div class="gallery-folder" onclick="this.classList.toggle('open')">
+      <div class="folder-cover">
+        <div class="folder-icon">📁</div>
+        <h3>🐄 घायल गौ रेस्क्यू</h3>
+        <p>📸 7 Rescue Photos</p>
+        <span>👆 View Gallery</span>
+      </div>
+
+      <div class="gallery-folder-content" onclick="event.stopPropagation()">
+        <div class="gallery-grid">
+          <img src="IMG-20260616-WA0109.jpg" alt="Rescue 1">
+          <img src="IMG-20260616-WA0118.jpg" alt="Rescue 2">
+          <img src="IMG-20260616-WA0125.jpg" alt="Rescue 3">
+          <img src="IMG-20260616-WA0129.jpg" alt="Rescue 4">
+          <img src="IMG-20260618-WA0027.jpg" alt="Rescue 5">
+          <img src="IMG-20260622-WA0059.jpg" alt="Rescue 6">
+          <img src="IMG-20260719-WA0129.jpg" alt="Rescue 7">
+        </div>
+        <p>समय पर उपचार एवं सुरक्षित स्थान तक पहुँचाना।</p>
+      </div>
+    </div>
+
+    <div class="cards two gallery-info">
+      <article class="card">
+        <h3>🥛 गौ सेवा</h3>
+        <p>भोजन, पानी एवं नियमित देखभाल।</p>
+      </article>
+      <article class="card">
+        <h3>🛡️ गौ संरक्षण</h3>
+        <p>गोवंश की सुरक्षा एवं संरक्षण अभियान।</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="team" class="section dark"><div class="container"><h2 class="section-title">👥 हमारी टीम</h2><div class="team-grid"><article class="team-card founder"><div class="avatar">👑</div><h3>Lala Ram Meena</h3><p>Founder</p></article><article class="team-card"><h3>Chandrmohan</h3><p>CM Shaab • Member</p></article><article class="team-card"><h3>Anuj Sharma</h3><p>Member</p></article><article class="team-card"><h3>Navneet Saini</h3><p>Member</p></article><article class="team-card"><h3>Prem Shankar</h3><p>Member</p></article><article class="team-card"><h3>Mohit Gurjar</h3><p>Member</p></article><article class="team-card"><h3>Sultan Gurjar</h3><p>Member</p></article><article class="team-card"><h3>Deepak Sharma</h3><p>Member</p></article></div></div></section>
+<section id="contact" class="section"><div class="container"><h2 class="section-title">📞 संपर्क करें</h2><div class="cards three"><article class="card contact-card"><h3>📱 मोबाइल</h3><a href="tel:7742569365">7742569365</a></article><article class="card contact-card"><h3>💬 WhatsApp</h3><a href="https://wa.me/917742569365" target="_blank">7742569365</a></article><article class="card contact-card"><h3>📍 पता</h3><p>Banskhoh, Bassi, Jaipur (Rajasthan)</p></article></div></div></section>
+</main>
+<a class="floating whatsapp" href="https://wa.me/917742569365" target="_blank">💬</a><a class="floating call" href="tel:7742569365">📞</a>
+<footer><h2>नई नाथ गौ रक्षा दल</h2><p>गो सेवा • राष्ट्र सेवा • मानव सेवा</p><p>© 2026 सभी अधिकार सुरक्षित</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
